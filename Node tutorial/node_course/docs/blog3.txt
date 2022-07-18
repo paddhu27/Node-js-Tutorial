@@ -1,0 +1,224 @@
+Week-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strengthWeek-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strengthWeek-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strength
+Week-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strengthWeek-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strengthWeek-3 –Lab 
+1. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? 
+Group 2?
+2. Find website URLs that begin with http:// or https://. 
+3. Clean up dates in different date formats (such as 3/14/2015, 03-14-2015, and 2015/3/14) by 
+replacing them with dates in a single, standard format.
+4. How would you write a regex that matches a number with commas for every three digits? It 
+must match the following:
+ • '42' 
+ • '1,234' 
+ • '6,368,745'
+ but not the following: 
+ • '12,34,567' (which has only two digits between the commas) 
+ • '1234' (which lacks commas)
+5. How would you write a regex that matches the full name of someone whose last name is 
+Nakamoto? You can assume that the first name that comes before it will always be one word 
+that begins with a capital letter. 
+The regex must match the following:
+ • 'Satoshi Nakamoto'
+ • 'Alice Nakamoto' • 'RoboCop Nakamoto' 
+but not the following:
+ • 'satoshi Nakamoto' (where the first name is not capitalized) • 'Mr. Nakamoto' (where the preceding word has a nonletter character)
+ • 'Nakamoto' (which has no first name)
+ • 'Satoshi nakamoto' (where Nakamoto is not capitalized)
+6. How would you write a regex that matches a sentence where the first word is either Alice, Bob, 
+or Carol; the second word is either eats, pets, or throws; the third word is apples, cats, or 
+baseballs; and the sentence ends with a period? This regex should be case-insensitive. It must 
+match the following:
+ • 'Alice eats apples.'
+ • 'Bob pets cats.'
+ • 'Carol throws baseballs.'
+ • 'Alice throws Apples.' 
+ • 'BOB EATS CATS.
+' but not the following: • 'RoboCop eats apples.' • 'ALICE THROWS FOOTBALLS.' • 'Carol eats 7 cats.'
+7. Strong Password Detection Write a function that uses regular expressions to make sure the 
+password string it is passed is strong. A strong password is defined as one that is at least eight 
+characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strength
